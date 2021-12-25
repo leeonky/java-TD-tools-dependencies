@@ -16,7 +16,7 @@ apply plugin: 'signing'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.github.leeonky'
-version = '0.0.2' + System.env.VERSION_SCOPE
+version = '0.0.1' + System.env.VERSION_SCOPE
 
 repositories {
     mavenCentral()
@@ -52,8 +52,8 @@ publishing {
                 }
 
                 dependencyManagement {
-                    imports {
-                        mavenBom 'com.github.leeonky:jfactory:0.3.1'
+                    dependencies {
+                        dependency 'com.github.leeonky:jfactory:0.3.1'
                     }
                 }
             }
