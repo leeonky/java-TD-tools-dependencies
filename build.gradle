@@ -53,7 +53,14 @@ publishing {
 
                 dependencyManagement {
                     dependencies {
-                        dependency 'com.github.leeonky:jfactory:0.3.1'
+                        dependency 'com.github.leeonky:bean-util:0.2.14'
+                        dependency 'com.github.leeonky:jfactory:0.3.9'
+                        dependency 'com.github.leeonky:jfactory-cucumber:0.1.14'
+                        dependency 'com.github.leeonky:jfactory-repo-jpa:0.1.8'
+                        dependency 'com.github.leeonky:jfactory-property-value:0.0.6'
+                        dependency 'com.github.leeonky:DAL-java:0.1.13'
+                        dependency 'com.github.leeonky:assertj-DAL:0.0.8'
+                        dependency 'com.github.leeonky:JSONassert-DAL:0.0.6'
                     }
                 }
             }
