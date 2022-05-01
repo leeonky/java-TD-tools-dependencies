@@ -16,7 +16,7 @@ apply plugin: 'signing'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.github.leeonky'
-version = '0.0.1' + System.env.VERSION_SCOPE
+version = '0.0.2' + System.env.VERSION_SCOPE
 
 repositories {
     mavenCentral()
@@ -53,14 +53,12 @@ publishing {
 
                 dependencyManagement {
                     dependencies {
-                        dependency 'com.github.leeonky:bean-util:0.2.14'
-                        dependency 'com.github.leeonky:jfactory:0.3.9'
-                        dependency 'com.github.leeonky:jfactory-cucumber:0.1.14'
+                        dependency 'com.github.leeonky:bean-util:0.3.1'
+                        dependency 'com.github.leeonky:jfactory:0.3.11'
+                        dependency 'com.github.leeonky:jfactory-property-value:0.0.7'
                         dependency 'com.github.leeonky:jfactory-repo-jpa:0.1.8'
-                        dependency 'com.github.leeonky:jfactory-property-value:0.0.6'
-                        dependency 'com.github.leeonky:DAL-java:0.1.13'
-                        dependency 'com.github.leeonky:assertj-DAL:0.0.8'
-                        dependency 'com.github.leeonky:JSONassert-DAL:0.0.6'
+                        dependency 'com.github.leeonky:DAL-java:0.2.1'
+                        dependency 'com.github.leeonky:jfactory-cucumber:0.1.17'
                     }
                 }
             }
