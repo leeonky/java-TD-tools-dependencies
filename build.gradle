@@ -17,7 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'com.github.leeonky'
 
-version = '0.0.3' + System.env.VERSION_SCOPE
+version = '0.0.4' + System.env.VERSION_SCOPE
 
 repositories {
     mavenCentral()
@@ -61,6 +61,7 @@ publishing {
                         dependency 'com.github.leeonky:jfactory-property-value:0.0.7'
                         dependency 'com.github.leeonky:DAL-java:0.2.1'
                         dependency 'com.github.leeonky:DAL-extension-basic:0.0.3'
+                        dependency 'com.github.leeonky:RESTful-cucumber:0.0.2'
 
                         // Deprecated
                         dependency 'com.github.leeonky:assertj-DAL:0.0.11'
