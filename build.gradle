@@ -31,6 +31,7 @@ repositories {
 publishing {
     publications {
         mavenJava(MavenPublication) {
+            artifactId = projectName
             pom {
                 name = projectName
                 description = projectName
