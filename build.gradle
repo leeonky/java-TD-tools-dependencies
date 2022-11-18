@@ -22,7 +22,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'com.github.leeonky'
 
-version = '0.0.8' + System.env.VERSION_SCOPE
+version = '0.0.9' + System.env.VERSION_SCOPE
 
 repositories {
     mavenCentral()
@@ -60,14 +60,14 @@ publishing {
 
                 dependencyManagement {
                     dependencies {
-                        dependency 'com.github.leeonky:bean-util:0.5.1'
-                        dependency 'com.github.leeonky:jfactory:0.3.17'
-                        dependency 'com.github.leeonky:jfactory-repo-jpa:0.1.10'
-                        dependency 'com.github.leeonky:jfactory-cucumber:0.1.20'
-                        dependency 'com.github.leeonky:jfactory-property-value:0.0.8'
-                        dependency 'com.github.leeonky:DAL-java:0.3.4'
-                        dependency 'com.github.leeonky:DAL-extension-basic:0.0.5'
-                        dependency 'com.github.leeonky:RESTful-cucumber:0.0.10'
+                        dependency 'com.github.leeonky:bean-util:0.6.3'
+                        dependency 'com.github.leeonky:jfactory:0.3.20'
+                        dependency 'com.github.leeonky:jfactory-repo-jpa:0.1.13'
+                        dependency 'com.github.leeonky:jfactory-cucumber:0.1.23'
+                        dependency 'com.github.leeonky:jfactory-property-value:0.0.11'
+                        dependency 'com.github.leeonky:DAL-java:0.3.18'
+                        dependency 'com.github.leeonky:DAL-extension-basic:0.0.11'
+                        dependency 'com.github.leeonky:RESTful-cucumber:0.0.15'
                     }
                 }
             }
